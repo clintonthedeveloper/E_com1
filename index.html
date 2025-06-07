@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="featured-products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <a href="#" class="logo">Shop<span>Hub</span></a>
+        
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div class="nav-icons">
+            <a href="#" class="user-icon"><i class="far fa-user"></i></a>
+            <a href="#" class="wishlist-icon">
+                <i class="far fa-heart"></i>
+                <span class="wishlist-count">3</span>
+            </a>
+            <a href="#" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">5</span>
+            </a>
+        </div>
+    </nav>
+    <!-- hero section -->
+        <section class="hero">
+        <!-- Video Background -->
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="https://www.bing.com/videos/riverview/relatedvideo?q=short%20shopping%20vedio%20clip&mid=FB4FBE553C02E5AFCB99FB4FBE553C02E5AFCB99&ajaxhist=0" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Elevate Your Style</h1>
+                <p class="hero-subtitle">Discover the season's hottest trends at unbeatable prices</p>
+                <div class="hero-cta">
+                    <a href="#" class="cta-button">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="cta-button secondary">View Collection</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scrolling Indicator -->
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    
+        <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Collection</h2>
+                <p>Discover our premium selection of best-selling products</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Wireless Headphones">
+                        <button class="quick-view-btn">Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Premium Wireless Headphones</h3>
+                        <div class="product-price">
+                            <span class="current-price">1490.99 Ksh</span>
+                            <span class="original-price">1990.99 ksh</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge sale">25% Off</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Smart Watch">
+                        <button class="quick-view-btn">Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Smart Fitness Watch</h3>
+                        <div class="product-price">
+                            <span class="current-price">1790.00 Ksh</span>
+                            <span class="original-price">$239.00</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-badge bestseller">Bestseller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Running Shoes">
+                        <button class="quick-view-btn">Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pro Running Shoes</h3>
+                        <div class="product-price">
+                            <span class="current-price">2000.00 Ksh</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Bluetooth Speaker">
+                        <button class="quick-view-btn">Quick View</button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Portable Bluetooth Speaker</h3>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                            <span class="original-price">$119.99</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="#" class="view-all-btn">View All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- categories section -->
+
+    
+    <section class="category-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop Men's Fashion</h2>
+                <p>Browse our wide range of men's clothing categories</p>
+            </div>
+            
+            <div class="categories-grid">
+                <!-- Category 1 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/892/892458.png" alt="T-Shirts">
+                    </div>
+                    <h3>T-Shirts</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 2 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3048/3048127.png" alt="Shirts">
+                    </div>
+                    <h3>Shirts</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 3 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/863/863684.png" alt="Jeans">
+                    </div>
+                    <h3>Jeans</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 4 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081985.png" alt="Suits">
+                    </div>
+                    <h3>Suits & Blazers</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 5 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1590/1590883.png" alt="Activewear">
+                    </div>
+                    <h3>Activewear</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 6 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" alt="Outerwear">
+                    </div>
+                    <h3>Outerwear</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 7 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081817.png" alt="Footwear">
+                    </div>
+                    <h3>Footwear</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <!-- Category 8 -->
+                <a href="#" class="category-card">
+                    <div class="category-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081669.png" alt="Accessories">
+                    </div>
+                    <h3>Accessories</h3>
+                    <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+        <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="intro-text">
+                        Founded in 2020, <span class="brand-name">StyleHub</span> began as a small boutique with a big vision - to make premium fashion accessible without compromising on quality or ethics. Today, we've grown into a trusted destination for modern consumers who value both style and substance.
+                    </p>
+                    
+                    <div class="unique-selling-points">
+                        <div class="usp-item">
+                            <div class="usp-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="usp-text">
+                                <h3>Curated Collections</h3>
+                                <p>We hand-select every item in our store to ensure exceptional quality and timeless design.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="usp-item">
+                            <div class="usp-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="usp-text">
+                                <h3>Sustainable Practices</h3>
+                                <p>Committed to eco-friendly materials and ethical manufacturing processes.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="usp-item">
+                            <div class="usp-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="usp-text">
+                                <h3>Customer First</h3>
+                                <p>Your satisfaction is our priority, with personalized service and easy returns.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="cta-button">Explore Our Collections</a>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVhbSUyMHdvcmtpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="StyleHub Team">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reviews Section -->
+        <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Trusted by thousands of happy shoppers</p>
+            </div>
+            
+            <div class="reviews-slider">
+                <div class="slider-container">
+                    <!-- Review 1 -->
+                    <div class="review-card active">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J.">
+                            </div>
+                            <div class="user-details">
+                                <h4>Sarah J.</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "Absolutely love my purchase! The quality exceeded my expectations and the shipping was super fast. Will definitely shop here again!"
+                        </p>
+                        <span class="review-date">May 15, 2023</span>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="review-card">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                            </div>
+                            <div class="user-details">
+                                <h4>Michael T.</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "Great customer service! Had an issue with sizing and they helped me exchange it immediately. The product itself is fantastic quality."
+                        </p>
+                        <span class="review-date">April 28, 2023</span>
+                    </div>
+                    
+                    <!-- Review 3 -->
+                    <div class="review-card">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya K.">
+                            </div>
+                            <div class="user-details">
+                                <h4>Priya K.</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "I'm so impressed with the attention to detail. The packaging was beautiful and the product was exactly as described. 10/10!"
+                        </p>
+                        <span class="review-date">June 2, 2023</span>
+                    </div>
+                    
+                    <!-- Review 4 -->
+                    <div class="review-card">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David L.">
+                            </div>
+                            <div class="user-details">
+                                <h4>David L.</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "Good products at reasonable prices. The only reason I didn't give 5 stars is because the color was slightly different than pictured."
+                        </p>
+                        <span class="review-date">March 10, 2023</span>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer Section -->
+        <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-col">
+                    <h3 class="footer-logo">ShopEase</h3>
+                    <p class="footer-about">Premium e-commerce solutions for modern shoppers. Quality products with fast delivery.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Customer Service -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Customer Service</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright and Developer Credit -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2023 ShopEase. All rights reserved.
+                </div>
+                <div class="developer-credit">
+                    <span>Developed by</span>
+                    <a href="https://github.com/clintonthedeveloper" target="_blank" class="developer-name">
+                        Clintonthedeveloper
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ochieng-clinton-566391275"" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="reviews.js"></script
+
+    
+    <script src="reviews.js"></script>
+</body>
+</html>
